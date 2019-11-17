@@ -1,2 +1,2 @@
-# Th-c-H-nh
+# Thuc Hanh
 BTVN
