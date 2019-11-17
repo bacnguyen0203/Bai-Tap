@@ -1,10 +1,10 @@
-/*.clearfix::after {*/
-/*    content: "";*/
-/*    clear: both;*/
-/*    display: table;*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-li {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -32,7 +32,6 @@ header .main-navigation .main-menu{
 .main-navigation .main-menu li .menu-item {
     background: orange;
     float: left;
-    position: relative;
 }
 
 .main-navigation .main-menu li .menu-item:hover ul .submenu {
@@ -50,17 +49,19 @@ header .main-navigation .main-menu{
 
 .main-navigation .main-menu li a:hover {
     background: tomato;
+
 }
 
-/*
-    begin submenu
-*/
-    nav .submenu{
+/*Begin submenu */
+    nav .submenu {
         display: none;
-        position: absolute;
         min-width: 300px;
+        position: absolute;
+        top: 40px;
+        left: 0;
+      }
+
+    nav .submenu >li .submenu-item {
+        border-bottom: 1px solid white;
     }
-
-/*
-
-*/
+/**/
